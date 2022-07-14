@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html, body{
+    margin:0;
+    font-family: 'Ubuntu';
+}
+body{
+    background-color: rgba(100,100,100);
+}
+
+.main-nav{
+    padding:2em 0;
+    background-color: rgba(10,10,10);
+    color:#999;
+    font-size: 1.5em;
+}
+
+.nav-item{
+    text-decoration: none;
+    color:rgba(250,250,250);
+    padding-left: 2em;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+    transition:.3s ease-in;
+}
+
+.over-container{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
+    width:60%;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.main-footer{
+    background-color: rgba(10,10,10);
+    height:6em;
+}
+
+.main-content{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:4em;
+    background-color:white;
+}
+
+.content-meta{
+    display:flex;
+    justify-content: space-around;
+}
+
+.content-item{
+    margin:6em;
+}
+
+.content-header{
+    text-decoration: underline;
+}
+
